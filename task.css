@@ -1,0 +1,292 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .navbar{
+      height: 100px;
+      width: 100%;
+      background-color:teal;
+      color: whitesmoke;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    .nav{
+      padding: 10px;
+      margin:10px;
+    }
+
+    .nav ul {
+      display: flex;
+      list-style-type: none;
+      padding: 10px;
+      margin-top:5px;
+      align-items: end;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+
+    .nav ul li{
+      padding: 10px;
+      margin-top:5px;
+    }
+
+    .nav ul li:hover{
+      cursor: pointer;
+      background-color: #45a049;
+      opacity: 0.7;
+      height:25px;
+    }
+    
+    .container {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      
+    }
+
+   
+    
+    .container h2 {
+      text-align: center;
+    }
+    
+    .container input[type="text"],
+    .container input[type="password"],
+    .container input[type="email"],
+    .container input[type="number"] {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    .container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #4CAF50;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    
+    .container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .btn1{
+      width: 300px;
+      margin: 0 auto;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      font-weight: bold;
+    
+    }
+
+
+    .btn3{
+     
+      padding: 8px;
+      border: none;
+      background-color: #4CAF50;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-left: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      
+    }
+
+    .btn2{
+      
+      display: flex;
+       margin-left: 8px;
+    }
+
+    .head{
+      text-align: center;
+      font-weight: bold;
+      
+    }
+
+
+
+    header{
+      padding:2rem 1rem;
+      max-width: 800px;
+      width:100%;
+      margin:0 auto;
+  }
+  
+  header h1{
+      font-weight: bold;
+      font-size: 2.5rem;
+      //color:gray;
+      margin-bottom:1rem;
+      //text-align:center;
+  
+  }
+
+  
+  
+  #new-task-input{
+      padding: 10px;
+      border:none;
+      border-radius: 10px;
+      font-weight: bold;
+      width:400px;
+      height:50px;
+      color:black;
+    
+  
+  }
+  
+  #new-task-input:hover{
+      cursor:pointer;
+      height:60px;
+  }
+  
+  #new-task-submit{
+      font-weight: bold;
+      border:none;
+      border-radius: 5px;
+      padding:12px;
+      margin-left: 15px;
+      color:whitesmoke;
+      font-size: 1.2rem;
+      cursor:pointer;
+      background-color: #45a049;
+  }
+  
+  #new-task-submit:hover{
+      opacity:0.8;
+      height:50px;
+  }
+  
+  #datePicker{
+    margin-top: 10px;
+    padding: 5px;
+    border:none;
+    color:purple;
+    font-weight: bold;
+    border-radius: 20px;
+    //margin:0 auto;
+    width: 400px;
+    text-align:center;
+}
+  
+  #datePicker:hover{
+      height:40px;
+  }
+  
+  #timePicker{
+    margin-top: 10px;
+    padding: 5px;
+    border:none;
+    color:purple;
+    font-weight: bold;
+    border-radius: 20px;
+   // margin-left: 150px;
+   width: 400px;
+   text-align:center;
+}
+  
+  #timePicker:hover{
+      height:40px;
+  }
+  
+  
+  section{
+      padding:2rem 1rem;
+      max-width: 800px;
+      width:100%;
+      margin:0 auto;
+      //text-align: center;
+  }
+  
+  section h2{
+      font-weight: bold;
+      font-size: 2rem;
+      margin-top: 10px;
+     margin-bottom:1rem;
+     /* // text-align:center; */
+  
+  }
+  
+  .text{
+      width:550px;
+      height:40px;
+      border:none;
+      border-radius: 20px;
+  }
+  
+  .text:hover{
+      height:50px;
+      cursor:pointer;
+  }
+  
+  
+    .task{
+      display:flex;
+      padding: 5px;
+    
+  }
+
+
+  
+  
+  .edit{
+      padding: 8px;
+      border:none;
+      border-radius: 20px;
+      font-weight: bold;
+      color:green;
+      margin-left: -120px;
+      margin-top: 5px;
+      cursor:pointer;
+  }
+  
+  
+  
+  
+  
+  .delete{
+      padding: 8px;
+      border:none;
+      border-radius: 20px;
+      font-weight: bold;
+      color:crimson;
+     /* // margin-left: -100px; */
+      margin-top: 5px;
+      cursor:pointer;
+      
+  }
+  
+  .action{
+      display:flex;
+  }
+
+  .ok{
+    text-align: center;
+  }
+
+  .bx bx-task{
+    height: 500px;
+  }
+
+  .one{
+    font-size: xx-large;
+    font-weight: bolder;
+  }

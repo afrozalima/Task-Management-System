@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Management System</title>
+
+ <link rel="stylesheet" href="task.css">
+ <link rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<!--jQuery CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ 
+</head>
+<body>
+
+<!--Navbar-->
+<div class="navbar">
+    <div class="nav">
+
+      <!--<i class='bx bx-task'></i>-->
+      
+       <ul>
+       
+        <li>Home</li>
+        <li>Update Task</li>
+        <li>Apply Task</li>
+        <li>Leave Status</li>
+        <li>Logout</li>
+       </ul>
+    </div>
+</div> <br>
+
+<h1 class="ok"> 
+  
+    Welcome To Afroza's Task Management System
+   
+  </h1>  
+
+  <header>
+    <h1> Task List 2023</h1>
+    <form action="" id="new-task-form">
+<input type="text" id="new-task-input" placeholder="What do you have planned?">
+   <input type="submit" id="new-task-submit" value="Add Task"> <br> 
+   <input type="date" id="datePicker">
+   <input type="time" id="timePicker">
+</form>
+</header>
+ 
+<main>
+    <section class="task-list">
+        <h2>Tasks Activity</h2>
+
+        <div id="tasks">
+          <!--<div class="task">
+                <div class="content">
+                    <input type="text" class="text" readonly>
+                </div> 
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                     <button class="delete">Delete</button>
+                </div>
+          </div>-->  
+        </div>
+      </section>
+
+
+</main>
+
+<footer>
+  <button class="btn3 one">Continue!</button>
+  <button class="btn3 one showp">End</button>
+  <p class="one">Thank You!!! <br>
+    Today Task End...
+  </p>
+  
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="task.js"></script>
+
+<script src="jquery.js"></script>
+</body>
+</html>
